@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignore the Blackout installer
+Inno Compiler/Output/BlackoutInstaller.exe
