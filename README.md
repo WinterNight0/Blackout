@@ -22,7 +22,7 @@
 | `status`                | -           | Show current scheduled shutdown/hibernate and countdown. |                                            |
 | `now`                   | -           | Execute shutdown or hibernate immediately.               |                                            |
 | `set HH:mm`             | -           | Schedule a shutdown/hibernate at the specified time.     |                                            |
-| \`mode shutdown         | hibernate\` | -                                                        | Switch between shutdown or hibernate mode. |
+| `mode shutdown`         | `hibernate` | -                                                        | Switch between shutdown or hibernate mode. |
 | `preset NAME`           | `ps`        | Apply a saved preset.                                    |                                            |
 | `addpreset NAME HH:mm`  | `addps`     | Create a new preset.                                     |                                            |
 | `editpreset NAME HH:mm` | `editps`    | Edit an existing preset.                                 |                                            |
