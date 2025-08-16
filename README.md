@@ -1,6 +1,6 @@
 # Blackout Scheduler
 
-**Blackout Scheduler** is a simple yet powerful CLI tool for Windows that allows you to schedule **shutdown** or **hibernate** tasks, manage preset times, and customize task behavior. It is designed f[...]
+**Blackout Scheduler** is a simple yet powerful CLI tool for Windows that allows you to schedule **shutdown** or **hibernate** tasks, manage preset times, and customize task behavior. It is designed for end-users who want an easy way to automate PC power management.
 
 ---
 
