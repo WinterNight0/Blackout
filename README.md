@@ -1,6 +1,6 @@
 # Blackout Scheduler
 
-**Blackout Scheduler** is a simple yet powerful CLI tool for Windows that allows you to schedule **shutdown** or **hibernate** tasks, manage preset times, and customize task behavior. It is designed for end-users who want an easy way to automate PC power management.
+**Blackout Scheduler** is a simple yet powerful CLI tool for Windows that allows you to schedule **shutdown** or **hibernate** tasks, manage preset times, and customize task behavior. It is designed f[...]
 
 ---
 
@@ -17,20 +17,21 @@
 
 ## Commands
 
-| Command                 | Alias       | Description                                              |                                            |
-| ----------------------- | ----------- | -------------------------------------------------------- | ------------------------------------------ |
-| `status`                | -           | Show current scheduled shutdown/hibernate and countdown. |                                            |
-| `now`                   | -           | Execute shutdown or hibernate immediately.               |                                            |
-| `set HH:mm`             | -           | Schedule a shutdown/hibernate at the specified time.     |                                            |
-| `mode shutdown`         | `hibernate` | -                                                        | Switch between shutdown or hibernate mode. |
-| `preset NAME`           | `ps`        | Apply a saved preset.                                    |                                            |
-| `addpreset NAME HH:mm`  | `addps`     | Create a new preset.                                     |                                            |
-| `editpreset NAME HH:mm` | `editps`    | Edit an existing preset.                                 |                                            |
-| `delpreset NAME`        | `delps`     | Delete a preset.                                         |                                            |
-| `listpresets`           | `lsps`      | Show all saved presets.                                  |                                            |
-| `clear`                 | `clr`       | Clear the scheduled shutdown task.                       |                                            |
-| `enable`                | -           | Enable the shutdown/hibernate task.                      |                                            |
-| `disable`               | -           | Disable the shutdown/hibernate task.                     |                                            |
+| Command                 | Alias       | Description                                              |
+| ----------------------- | ----------- | -------------------------------------------------------- |
+| `status`                | -           | Show current scheduled shutdown/hibernate and countdown. |
+| `now`                   | -           | Execute shutdown or hibernate immediately.               |
+| `set HH:mm`             | -           | Schedule a shutdown/hibernate at the specified time.     |
+| `mode shutdown`         | -           | Switch to shutdown mode.                                 |
+| `mode hibernate`        | -           | Switch to hibernate mode.                                |
+| `preset NAME`           | `ps`        | Apply a saved preset.                                    |
+| `addpreset NAME HH:mm`  | `addps`     | Create a new preset.                                     |
+| `editpreset NAME HH:mm` | `editps`    | Edit an existing preset.                                 |
+| `delpreset NAME`        | `delps`     | Delete a preset.                                         |
+| `listpresets`           | `lsps`      | Show all saved presets.                                  |
+| `clear`                 | `clr`       | Clear the scheduled shutdown task.                       |
+| `enable`                | -           | Enable the shutdown/hibernate task.                      |
+| `disable`               | -           | Disable the shutdown/hibernate task.                     |
 
 ---
 
